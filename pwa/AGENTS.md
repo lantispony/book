@@ -79,11 +79,11 @@
 
 ## Deploy
 - 使用根目錄的 `deploy.bat` 部署到 Firebase Hosting
-- 流程：syntax check → 自動備份到 `pwa\當天日期\NNN\` → `firebase deploy`
-- 主要檔案目錄：`pwa\`，備份目錄：`pwa\當天日期\`
+- 流程：syntax check → 自動備份到 `E:\AI\book\backup\pwa\當天日期\NNN\` → `firebase deploy`
+- 主要檔案目錄：`pwa\`，備份目錄：`E:\AI\book\backup\pwa\`
 
 ## Backup Rule
-- 部署前自動備份到 `pwa\當天日期\NNN\`（NNN 自動遞增 001→002→003…）
+- 部署前自動備份到 `E:\AI\book\backup\pwa\當天日期\NNN\`（NNN 自動遞增 001→002→003…）
 - 每天一個日期資料夾，內含當天的序號備份
 - 備份所有檔案：`index.html`, `index_mobile.html`, `index_pc.html`, `core.js`, `app.js`, `desktop.js`, `style.css`, `style_pc.css`, `firebase-config.js`, `sw.js`, `manifest.json`, `icon.svg`
 

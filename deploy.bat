@@ -7,7 +7,7 @@ echo ====================================
 echo.
 
 set PWA_DIR=%~dp0pwa
-for /f %%d in ('powershell -NoProfile -Command "Get-Date -Format yyyyMMdd"') do set BACKUP_BASE=%~dp0pwa\%%d
+for /f %%d in ('powershell -NoProfile -Command "Get-Date -Format yyyyMMdd"') do set BACKUP_BASE=%~dp0backup\pwa\%%d
 
 REM ---- Step 1: Syntax check ----
 echo [1/4] Syntax check...
