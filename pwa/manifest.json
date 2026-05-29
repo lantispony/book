@@ -1,0 +1,18 @@
+{
+  "name": "共享帳本",
+  "short_name": "帳本",
+  "description": "多人共享記帳工具",
+  "start_url": "index_mobile.html",
+  "display": "standalone",
+  "background_color": "#0D0D0D",
+  "theme_color": "#A8FF00",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

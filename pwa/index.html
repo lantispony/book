@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MONEST 共用帳本</title>
+<script>
+;(function(){
+  var ua = navigator.userAgent;
+  var isMobile = /Mobi|Android|iPhone|iPad|iPod|webOS|BlackBerry|IEMobile|Opera Mini/i.test(ua);
+  if (isMobile) {
+    window.location.replace('index_mobile.html');
+  } else {
+    window.location.replace('index_pc.html');
+  }
+})();
+</script>
+</head>
+<body></body>
+</html>

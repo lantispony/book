@@ -1,0 +1,13 @@
+.firebase/
+data/
+backup/
+graphify-out/
+main_data/
+font/
+node_modules/
+*.log
+.DS_Store
+firebase-debug.log
+ui-debug.log
+*.zip
+pwa/20*/
